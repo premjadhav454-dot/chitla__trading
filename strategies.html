@@ -1,12 +1,267 @@
+
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Strategies | Chitla Trading</title><meta name="description" content="Timeframes, trade setups and trading mindset.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-<link rel="icon" href="images/logo-mark.png"><link rel="stylesheet" href="css/style.css"></head><body>
-<header class="top"><div class="wrap bar"><a class="logo" href="index.html"><img src="images/logo-mark.png" alt="">CHITLA <span>TRADING</span></a>
-<button class="burger" aria-label="Menu" aria-expanded="false">Menu</button>
-<nav><a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Forex Education</a><a href="analysis.html">Market Analysis</a><a href="strategies.html" class=on aria-current=page>Strategies</a><a href="contact.html">Contact</a><a class="btn sm" href="https://www.instagram.com/chitlatrading?utm_source=qr&amp;obrf=eWp6aGtxbTBicG52thta" target="_blank" rel="noopener">Instagram</a></nav></div></header>
-<main><section class="pagehead"><div class="wrap"><h1>Strategies</h1><p>Structured setups, the right timeframes, and the mindset that keeps you consistent.</p></div></section><section class="wrap block"><h2>Price action and timeframes</h2><div class="topics"><button class="topic" type="button" data-src="images/timeframe-guide.jpg" data-alt="Price Action Timeframe Guide"><span>Price Action Timeframe Guide</span><b>View</b></button></div><h2>Trading psychology</h2><div class="topics"><button class="topic" type="button" data-src="images/mindset.jpg" data-alt="Mindset"><span>Mindset</span><b>View</b></button><button class="topic" type="button" data-src="images/trader.jpg" data-alt="Trader"><span>Trader</span><b>View</b></button></div><h2>9 Japanese principles for a better trading journey</h2><div class="topics"><button class="topic" type="button" data-src="images/9-japanese-principles.jpg" data-alt="9 Japanese Principles"><span>9 Japanese Principles</span><b>View</b></button><button class="topic" type="button" data-src="images/wabi-sabi.jpg" data-alt="Wabi-Sabi"><span>Wabi-Sabi</span><b>View</b></button><button class="topic" type="button" data-src="images/moai.jpg" data-alt="Moai"><span>Moai</span><b>View</b></button><button class="topic" type="button" data-src="images/oosouji.jpg" data-alt="Oosouji"><span>Oosouji</span><b>View</b></button><button class="topic" type="button" data-src="images/kaizen.jpg" data-alt="Kaizen"><span>Kaizen</span><b>View</b></button><button class="topic" type="button" data-src="images/gaman.jpg" data-alt="Gaman"><span>Gaman</span><b>View</b></button><button class="topic" type="button" data-src="images/shoshin.jpg" data-alt="Shoshin"><span>Shoshin</span><b>View</b></button><button class="topic" type="button" data-src="images/ikigai.jpg" data-alt="Ikigai"><span>Ikigai</span><b>View</b></button><button class="topic" type="button" data-src="images/mushin.jpg" data-alt="Mushin"><span>Mushin</span><b>View</b></button><button class="topic" type="button" data-src="images/kintsugi.jpg" data-alt="Kintsugi"><span>Kintsugi</span><b>View</b></button></div></section></main>
-<footer><div class="wrap"><p class="disc"><strong>Risk disclaimer:</strong> Forex and leveraged trading involve substantial risk and may not be suitable for every investor. Past performance does not guarantee future results. The information provided by Chitla Trading should be treated as educational content and not as a guarantee of profits or personalised financial advice.</p><p class="copy">© 2026 Chitla Trading · <a href="mailto:chitlatrading@gmail.com">chitlatrading@gmail.com</a> · Learn. Trade. Grow Together.</p></div></footer>
-<div id="lb" hidden><button class="x" type="button" aria-label="Close">✕</button><img alt=""></div><script src="js/main.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFFBF2">
+
+  <title>Trading Strategies | Chitla Trading</title>
+  <meta name="description" content="Explore trading strategy fundamentals, trend analysis, support and resistance, risk management, and disciplined trading practices with Chitla Trading.">
+
+  <link rel="icon" type="image/png" href="./logo-mark.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header class="top">
+    <div class="bar">
+      <a class="logo" href="./index.html" aria-label="Chitla Trading home">
+        <img src="./logo-mark.png" alt="Chitla Trading logo">
+        <span>CHITLA <strong>TRADING</strong></span>
+      </a>
+
+      <button class="burger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        ☰
+      </button>
+
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./education.html">Education</a>
+        <a href="./analysis.html">Analysis</a>
+        <a href="./strategies.html" aria-current="page">Strategies</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">PLAN WITH PURPOSE</p>
+        <h1>Trading Strategies Built on <span>Discipline.</span></h1>
+        <p>
+          A strategy is more than an entry signal. It is a structured
+          approach to analysing the market, managing risk, and making
+          decisions consistently.
+        </p>
+        <a class="btn" href="#strategy-guide">Explore Strategies</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="./timeframe-guide.jpg"
+          alt="Trading chart and timeframe analysis"
+          onerror="this.style.display='none'"
+        >
+      </div>
+    </section>
+
+    <section class="section" id="strategy-guide">
+      <div class="section-heading">
+        <p class="eyebrow">THE FOUNDATIONS</p>
+        <h2>Understand Your Approach</h2>
+        <p>
+          Learn the principles behind common trading approaches before
+          deciding which methods suit your knowledge, time, and risk tolerance.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+          <img src="./market-trends.jpg" alt="Market trend chart" loading="lazy">
+          <div class="card-body">
+            <h3>1. Trend Following</h3>
+            <p>
+              Study the direction of price movement and look for opportunities
+              that align with an established trend. Avoid assuming that a trend
+              will continue indefinitely.
+            </p>
+            <p><strong>Study:</strong> Higher highs, lower lows, and trend structure.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./support-resistance.jpg" alt="Support and resistance analysis" loading="lazy">
+          <div class="card-body">
+            <h3>2. Support and Resistance</h3>
+            <p>
+              Identify price areas where buying or selling pressure may emerge.
+              Treat these areas as zones rather than guaranteed turning points.
+            </p>
+            <p><strong>Study:</strong> Price reactions, breakouts, and retests.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./candlesticks.jpg" alt="Candlestick chart patterns" loading="lazy">
+          <div class="card-body">
+            <h3>3. Candlestick Analysis</h3>
+            <p>
+              Learn how candle bodies, wicks, and closing prices communicate
+              information about price movement during a selected period.
+            </p>
+            <p><strong>Study:</strong> Candle structure and market context.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./timeframe-guide.jpg" alt="Multiple trading timeframes" loading="lazy">
+          <div class="card-body">
+            <h3>4. Multi-Timeframe Analysis</h3>
+            <p>
+              Compare broader market structure with a more detailed chart.
+              A higher timeframe can provide context, while a lower timeframe
+              may help refine analysis.
+            </p>
+            <p><strong>Study:</strong> Trend alignment and timeframe consistency.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./mindset.jpg" alt="Trading mindset and discipline" loading="lazy">
+          <div class="card-body">
+            <h3>5. Trading Psychology</h3>
+            <p>
+              Recognise emotional reactions such as fear, impatience, and
+              overconfidence. A written plan can help reduce impulsive decisions.
+            </p>
+            <p><strong>Study:</strong> Patience, routine, and emotional awareness.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./trader.jpg" alt="Trader reviewing a trading plan" loading="lazy">
+          <div class="card-body">
+            <h3>6. Strategy Review</h3>
+            <p>
+              Record your reasoning, planned risk, and outcome. Reviewing a
+              meaningful sample of trades can reveal patterns and areas for
+              improvement.
+            </p>
+            <p><strong>Study:</strong> Journaling, consistency, and evaluation.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="legacy">
+      <div class="legacy-content">
+        <p class="eyebrow">PROTECT YOUR CAPITAL</p>
+        <h2>Risk Management Comes First.</h2>
+        <p>
+          No strategy wins every time. Decide in advance how much you are
+          prepared to risk, where your analysis is invalidated, and when you
+          will stay out of the market.
+        </p>
+
+        <ul>
+          <li>Define your risk before entering a trade.</li>
+          <li>Use position sizes appropriate to your risk limit.</li>
+          <li>Avoid trading with money you cannot afford to lose.</li>
+          <li>Never increase risk just to recover a loss.</li>
+          <li>Test ideas before using them in live markets.</li>
+        </ul>
+
+        <a class="btn" href="./education.html">Continue Learning</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">THE CHITLA APPROACH</p>
+        <h2>Learn. Analyse. Practise. Review.</h2>
+        <p>
+          Sustainable development comes from a repeatable process—not from
+          chasing signals, shortcuts, or promises of guaranteed returns.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Learn</h3>
+            <p>Build a clear understanding of market structure and trading terminology.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Practise</h3>
+            <p>Use a demo account or historical charts to practise without risking real capital.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Review</h3>
+            <p>Keep records, evaluate your decisions, and improve your process over time.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">IMPORTANT INFORMATION</p>
+        <h2>Trade With Awareness</h2>
+        <p>
+          This website provides educational information only. It is not
+          personalised investment advice or a recommendation to buy or sell
+          any financial instrument. Trading involves risk, including the
+          possible loss of your capital. Past performance does not guarantee
+          future results.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="bar">
+      <a class="logo" href="./index.html">
+        <img src="./logo-mark.png" alt="" loading="lazy">
+        <span>CHITLA <strong>TRADING</strong></span>
+      </a>
+
+      <p>Learn with discipline. Improve with consistency.</p>
+
+      <div class="footer-links">
+        <a href="./about.html">About</a>
+        <a href="./education.html">Education</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+      <p class="copyright">
+        © <span id="year"></span> Chitla Trading. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+  <script>
+    const yearElement = document.getElementById("year");
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+
+    const menuButton = document.querySelector(".burger");
+    const navigation = document.getElementById("main-nav");
+
+    if (menuButton && navigation) {
+      menuButton.addEventListener("click", function () {
+        const isOpen = navigation.classList.toggle("open");
+        menuButton.setAttribute("aria-expanded", String(isOpen));
+      });
+    }
+  </script>
+
+</body>
+</html>
